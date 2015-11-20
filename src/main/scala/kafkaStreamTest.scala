@@ -1,5 +1,9 @@
 /**
  * Created by damien.jones on 11/19/2015.
+ * All logic for streaming job must be inside the closure
+ * All other logic will be executed only once
+ * Broadcast variables can be created and re-broadcast as demonstrated below
+ * Driver executes logic inside foreachRDD, workers execute logic inside of foreach
  */
 
 import org.apache.spark.SparkConf
